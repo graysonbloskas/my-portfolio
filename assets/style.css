@@ -77,22 +77,33 @@ h2 {
 }
 
 .info-content {
-    height: 250px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     margin: 15px;
     position: relative;
 }
-.quarter {
-    display: flex;
-}
-    
-
 .info-content img {
     width: 100%;
     height: auto;
+
+}
+
+.quarter {
+    display: flex;
+    flex-wrap: wrap;
     
 }
+    
+.item {
+    width: 48%;
+    position: relative;
+
+
+}
+
+    
+
 
 .img-name {
   position: absolute;
@@ -115,4 +126,7 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
 
+}
+.contact{
+    
 }
